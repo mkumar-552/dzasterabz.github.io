@@ -1,0 +1,90 @@
+@media(max-width:700px){
+    #eImage{
+        display:none;
+    }
+}
+body{
+    background-image: url("data/img/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/*PYTHON COLORS
+    color:#4584b6; //PyBlue
+    color:#ffde57; //PyYellow
+    color:#646464; //PyGray
+*/
+#borderButton:hover{
+    border-bottom: 2px solid #FFCC00;
+}
+.py-image{
+    filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+.py-image:hover{
+     filter: grayscale(00%);
+    -moz-filter: grayscale(00%);
+    -webkit-filter: grayscale(00%);
+}
+.moreEvents{
+    border: 2px solid #FFCC00;
+    font-family: arial;
+    color:#FFCC00;
+    padding: 5px 8px 5px 8px;
+}
+.moreEvents:hover{
+    color:black;
+    background-color:#FFCC00;
+}
+.rightProject{
+    background-color: #FFCC00;
+    padding: 2% 5% 2% 5%;
+    
+}
+.moreProjects{
+    width:100%;
+    border: 2px solid #FFCC00;
+    font-family:arial;
+    color:#FFCC00; 
+    padding: 6px 50px 6px 50px;
+}
+.moreProjects:hover{
+    color:black;
+    background-color:#FFCC00;
+}
+.moreBlog{
+    border: 2px solid #FFCC00;
+    font-family:arial;
+    color:#FFCC00;
+    padding: 6px 50px 6px 50px;
+    text-align: center;
+}
+.moreBlog:hover{
+    color:black;
+    background-color:#FFCC00;
+}
+#register{
+    border:2px solid #FFCC00;
+    background-color: rgba(0,0,0,0);
+    color:#FFCC00;
+    font-family:arial;
+    padding: 5px 10px 5px 10px;
+}
+#register:hover{
+    background-color: #FFCC00;
+    color:black;
+}
+.social-icon{
+    color:#FFCC00;
+    border: 1px solid #FFCC00;
+    background-color:rgba(0,0,0,0);
+    padding: 23px 23px 23px 23px;
+}
+.social-icon:hover{
+    color:black;
+    background-color: #FFCC00;
+}
